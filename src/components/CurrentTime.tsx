@@ -33,11 +33,10 @@ export default function CurrentTime() {
       year: 'numeric' 
     }));
   }
-
   return (
-    <div className="flex flex-col justify-center items-center h-full">
-      <div className="text-4xl font-bold text-sage-dark">{time}</div>
-      <div className="text-sage mt-1">{date}</div>
+    <div className="flex flex-col justify-center items-center h-full p-8 md:p-10">
+      <div className="text-4xl md:text-5xl font-bold text-sage-dark">{time}</div>
+      <div className="text-lg md:text-xl text-sage mt-3">{date}</div>
     </div>
   );
 }

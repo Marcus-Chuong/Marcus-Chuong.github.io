@@ -27,21 +27,20 @@ export default function TechStack() {
     hidden: { opacity: 0, y: 10 },
     show: { opacity: 1, y: 0, transition: { duration: 0.5 } }
   };
-
   return (
-    <div className="p-5 h-full flex flex-col">
-      <h3 className="text-xl font-bold mb-4 text-sage-dark">Tech Stack</h3>
+    <div className="p-8 md:p-10 h-full flex flex-col">
+      <h3 className="text-2xl font-bold mb-6 text-sage-dark">Tech Stack</h3>
       <motion.div 
         variants={container}
         initial="hidden"
         animate="show"
-        className="flex flex-wrap gap-2"
+        className="flex flex-wrap gap-4"
       >
         {technologies.map((tech) => (
           <motion.span
             key={tech.name}
             variants={item}
-            className={`bg-sage-light px-3 py-1 rounded-full text-sm font-medium ${tech.color} hover:bg-sage hover:text-beige transition-colors duration-300`}
+            className={`bg-sage-light px-6 py-3 rounded-full text-lg font-medium ${tech.color} hover:bg-sage hover:text-beige transition-colors duration-300`}
           >
             {tech.name}
           </motion.span>

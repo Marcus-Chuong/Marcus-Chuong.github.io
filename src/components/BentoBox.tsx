@@ -29,12 +29,12 @@ export default function BentoBox({
       default: return { y: 20, x: 0 };
     }
   };
-    const content = (
+  const content = (
     <motion.div
       initial={{ opacity: 0, ...getDirectionOffset() }}
       animate={{ opacity: 1, y: 0, x: 0 }}
       transition={{ duration: 0.5, delay }}
-      className={`bg-beige rounded-xl border border-sage/20 overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-all h-full ${className}`}
+      className={`bg-beige rounded-xl border border-sage/20 overflow-hidden flex flex-col shadow-md hover:shadow-lg transition-all h-full ${className}`}
     >
       {children}
     </motion.div>
