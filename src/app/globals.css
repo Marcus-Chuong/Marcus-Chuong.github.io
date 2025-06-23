@@ -18,15 +18,7 @@
   --font-mono: system-ui, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #798777;
-    --foreground: #F8EDE3;
-    --primary: #BDD2B6;
-    --secondary: #A2B29F;
-    --accent: #F8EDE3;
-  }
-}
+/* Dark mode removed */
 
 body {
   background: var(--background);
