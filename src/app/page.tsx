@@ -26,8 +26,7 @@ export default function Home() {
                 <span className="text-sage-light">Developer</span>
               </h2>
               <p className="text-lg md:text-xl lg:text-2xl">
-                I build modern web applications with a focus on user experience,
-                performance, and clean code. Welcome to my personal website.
+                I am an undergraduate student at the University of Toronto, pursuing a degree in Computer Science, Mathematics, and Physics. I'm like  Quantum Computing, Machine Learning, and dogs.
               </p>
             </div>
           </BentoBox>
@@ -63,16 +62,14 @@ export default function Home() {
           <BentoBox className="col-span-6 md:col-span-3" delay={0.6}>
             <div className="p-8 md:p-10 h-full flex flex-col">
               <h3 className="text-2xl font-bold mb-6 text-sage-dark">
-                Featured Project
+                My Current Project
               </h3>
               <div className="flex-grow">
                 <h4 className="font-medium text-xl md:text-2xl mb-4">
-                  Personal Portfolio
+                  VibeTunes
                 </h4>
                 <p className="text-sage text-lg">
-                  A clean, modern portfolio built with Next.js and TailwindCSS
-                  showcasing my work and skills. This project demonstrates
-                  responsive design with smooth animations.
+                  A web app that allows users to translate dance moves into short live music clips using with Google Lyria.
                 </p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
@@ -80,10 +77,10 @@ export default function Home() {
                   Next.js
                 </span>
                 <span className="bg-sage-light px-4 py-2 rounded text-base text-sage-dark">
-                  TailwindCSS
+                  Google Lyria
                 </span>
                 <span className="bg-sage-light px-4 py-2 rounded text-base text-sage-dark">
-                  Framer Motion
+                  Typescript
                 </span>
               </div>
             </div>
@@ -122,7 +119,7 @@ export default function Home() {
               <div className="p-8 md:p-10 h-full flex flex-col justify-between">
                 <h3 className="text-2xl font-bold mb-4 text-sage-dark">Resume</h3>
                 <div className="flex justify-between items-center mt-4">
-                  <p className="text-sage text-lg">Experience</p>
+                  <p className="text-sage text-lg">Experience & Download</p>
                   <div className="w-9 h-9 rounded-full bg-sage-light flex items-center justify-center transform group-hover:translate-x-1 transition-transform duration-300">
                     <span className="text-sage-dark text-lg">→</span>
                   </div>

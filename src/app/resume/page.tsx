@@ -2,19 +2,20 @@ export default function Resume() {
   return (
     <div className="min-h-screen p-8 pb-20 sm:p-20 bg-beige text-sage-dark">
       <div className="max-w-4xl mx-auto pt-12 pb-24">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold mb-3">
           Resume
         </h1>
-        
-        <div className="mb-12">
+        <p className="text-sage text-lg mb-6">View my experience or download a copy for your records.</p>
+          <div className="mb-12">
           <a
-            href="#" 
-            className="inline-flex items-center px-4 py-2 bg-sage-dark text-beige rounded hover:bg-sage transition-colors duration-300"
+            href="/documents/Resume - Marcus Chuong.pdf" 
+            download="Resume - Marcus Chuong.pdf"
+            className="inline-flex items-center px-6 py-3 bg-sage-dark text-beige rounded-lg hover:bg-sage transition-colors duration-300 shadow-md"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
             </svg>
-            Download PDF
+            Download Resume
           </a>
         </div>
         
