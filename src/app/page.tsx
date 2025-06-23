@@ -22,8 +22,8 @@ export default function Home() {
                 <span className="text-sage-light">Marcus Chuong</span>
               </h1>
               <h2 className="text-2xl md:text-3xl lg:text-4xl text-sage mb-6">
-                Developer &{" "}
-                <span className="text-sage-light">Designer</span>
+                Student &{" "}
+                <span className="text-sage-light">Developer</span>
               </h2>
               <p className="text-lg md:text-xl lg:text-2xl">
                 I build modern web applications with a focus on user experience,
