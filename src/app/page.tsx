@@ -18,13 +18,13 @@ export default function Home() {
         <div className="flex flex-wrap gap-4 mb-12">
           <Link
             href="/projects"
-            className="px-6 py-3 bg-sage-dark text-beige rounded-lg hover:bg-sage transition-colors"
+            className="px-6 py-3 bg-sage-dark text-beige rounded-lg hover:bg-sage transition-all duration-300"
           >
             View My Projects
           </Link>
           <Link
             href="/contact"
-            className="px-6 py-3 bg-sage-light text-sage-dark rounded-lg hover:bg-beige transition-colors"
+            className="px-6 py-3 bg-sage-light text-sage-dark rounded-lg hover:bg-beige transition-all duration-300"
           >
             Contact Me
           </Link>
@@ -34,19 +34,19 @@ export default function Home() {
           <div className="p-6 bg-sage-light dark:bg-sage rounded-lg border border-sage">
             <h3 className="text-xl font-semibold mb-3 text-sage-dark dark:text-beige">Projects</h3>
             <p className="mb-4 text-sage-dark dark:text-beige">Check out my latest work and personal projects.</p>
-            <Link href="/projects" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium">View all projects →</Link>
+            <Link href="/projects" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium transition-colors duration-300">View all projects →</Link>
           </div>
           
           <div className="p-6 bg-sage-light dark:bg-sage rounded-lg border border-sage">
             <h3 className="text-xl font-semibold mb-3 text-sage-dark dark:text-beige">About Me</h3>
             <p className="mb-4 text-sage-dark dark:text-beige">Learn more about my background, skills, and experience.</p>
-            <Link href="/about" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium">Read more →</Link>
+            <Link href="/about" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium transition-colors duration-300">Read more →</Link>
           </div>
           
           <div className="p-6 bg-sage-light dark:bg-sage rounded-lg border border-sage">
             <h3 className="text-xl font-semibold mb-3 text-sage-dark dark:text-beige">What I'm Doing</h3>
             <p className="mb-4 text-sage-dark dark:text-beige">See what I'm currently working on and learning.</p>
-            <Link href="/what-im-doing" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium">See activities →</Link>
+            <Link href="/what-im-doing" className="text-sage-dark dark:text-beige hover:text-beige dark:hover:text-sage-light hover:underline font-medium transition-colors duration-300">See activities →</Link>
           </div>
         </div>
       </div>
