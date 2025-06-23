@@ -4,11 +4,14 @@ import { motion } from 'framer-motion';
 
 const technologies = [
   { name: 'JavaScript', color: 'text-sage-dark' },
-  { name: 'React', color: 'text-sage-dark' },
   { name: 'TypeScript', color: 'text-sage-dark' },
-  { name: 'Next.js', color: 'text-sage-dark' },
-  { name: 'TailwindCSS', color: 'text-sage-dark' },
-  { name: 'Node.js', color: 'text-sage-dark' }
+  { name: 'HTML', color: 'text-sage-dark' },
+  { name: 'CSS', color: 'text-sage-dark' },
+  { name: 'Python', color: 'text-sage-dark' },
+  { name: 'C++', color: 'text-sage-dark' },
+  { name: 'C', color: 'text-sage-dark' },
+  { name: 'Java', color: 'text-sage-dark' },
+  { name: 'SQL', color: 'text-sage-dark' }
 ];
 
 export default function TechStack() {
@@ -29,7 +32,7 @@ export default function TechStack() {
   };
   return (
     <div className="p-8 md:p-10 h-full flex flex-col">
-      <h3 className="text-2xl font-bold mb-6 text-sage-dark">Tech Stack</h3>
+      <h3 className="text-2xl font-bold mb-6 text-sage-dark">Languages</h3>
       <motion.div 
         variants={container}
         initial="hidden"
