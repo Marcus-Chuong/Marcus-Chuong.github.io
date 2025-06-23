@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen p-8 pb-20 sm:p-20">
       <div className="max-w-4xl mx-auto pt-12 pb-24">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Hello, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">Your Name</span>
+          Hello, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">Marcus Chuong</span>
         </h1>
         <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8">
           Developer & Designer
