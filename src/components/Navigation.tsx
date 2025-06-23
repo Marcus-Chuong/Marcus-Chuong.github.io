@@ -5,15 +5,14 @@ import { usePathname } from "next/navigation";
 
 export default function Navigation() {
   const pathname = usePathname();
-  
-  const isActive = (path: string) => {
+    const isActive = (path: string) => {
     return pathname === path
-      ? "text-blue-600 dark:text-blue-400 font-medium"
-      : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400";
+      ? "text-sage-dark dark:text-beige font-medium"
+      : "text-sage dark:text-sage-light hover:text-sage-dark dark:hover:text-beige";
   };
   return (
     <nav className="flex items-center justify-between max-w-6xl mx-auto p-4">
-      <Link href="/" className="text-xl font-bold hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Marcus Chuong</Link>
+      <Link href="/" className="text-xl font-bold hover:text-sage-dark dark:hover:text-beige transition-colors">Marcus Chuong</Link>
       
       <div className="flex space-x-6">
         <Link href="/" className={`${isActive('/')} transition-colors`}>
