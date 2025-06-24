@@ -26,7 +26,8 @@ jobs:
           node-version: "18"
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci      - name: Build with Next.js
+        run: npm ci      
+      - name: Build with Next.js
         run: NEXT_IGNORE_ESLINT=1 npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
