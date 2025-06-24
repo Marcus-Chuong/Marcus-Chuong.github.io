@@ -11,7 +11,7 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: "My Personal Website",
+  title: "Marcus Chuong",
   description: "Welcome to my personal website featuring my projects, about me, and more",
 };
 

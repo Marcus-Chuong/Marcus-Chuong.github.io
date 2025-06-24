@@ -36,8 +36,15 @@ export default function Home() {
             {/* Profile Image Box - 2 cols wide */}
             <BentoBox className="col-span-3 md:col-span-2 aspect-square flex items-center justify-center" delay={0.2}>
               <div className="relative w-full h-full flex items-center justify-center">
-                <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-sage-light flex items-center justify-center">
-                  <span className="text-7xl">😊</span>
+                <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-sage-light flex items-center justify-center overflow-hidden">
+                  <Image 
+                    src="/documents/Untitled design.png"
+                    alt="Sketch profile drawing"
+                    width={200}
+                    height={200}
+                    className="object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </BentoBox>
@@ -59,8 +66,11 @@ export default function Home() {
           </BentoBox>
 
           {/* Featured Project Box - 3 cols wide */}
-          <BentoBox className="col-span-6 md:col-span-3" delay={0.6}>
-            <div className="p-8 md:p-10 h-full flex flex-col group">
+          <BentoBox 
+            className="col-span-6 md:col-span-3" 
+            delay={0.6} 
+          >
+            <div className="p-8 md:p-10 h-full flex flex-col relative group">
               <h3 className="text-2xl font-bold mb-6 text-sage-dark group-hover:text-sage transition-colors duration-300">
                 My Current Project
               </h3>
@@ -89,6 +99,13 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </div>
+              <a 
+                href="https://vibe-tune-ten.vercel.app/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-10"
+                aria-label="Visit VibeTunes project"
+              ></a>
             </div>
           </BentoBox>
 

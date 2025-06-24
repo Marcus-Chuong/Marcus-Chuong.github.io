@@ -66,8 +66,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-sage text-center">
-          <p className="text-sage">
-            © {new Date().getFullYear()} Marcus Chuong. All rights reserved.
+          <p className="text-sage"> 
           </p>
         </div>
       </div>
